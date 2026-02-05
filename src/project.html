@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Projects | Lingyin Li</title>
+    <link rel="stylesheet" type="text/css" href="project.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+
+</head>
+<body>
+<div id="pagewrap">
+    <header>
+        <h1>Lingyin's Resume</h1>
+        <p>Welcome to my resume!</p>
+    </header>
+    <div id="navmain">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="edu.html">Education</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="leadership.html">Leadership</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1 id="name">Projects</h1>
+
+                    <div class="calculator">
+                        <h1 id="calc">BADMINTON CALCULATOR</h1>
+
+                        <label for= "first-num" class="label"><strong>Number 1</strong></label><input id= "first-num">
+                        <label for= "second-num" class="label"><strong>Number 2</strong></label><input id= "second-num">
+                        <div id="buttons">
+                            <button class="round-button" onclick= "addition()">+</button>
+                            <button class="round-button" onclick= "subtraction()">-</button>
+                            <button class="round-button" onclick= "multiplication()">*</button>
+                            <button class="round-button" onclick= "division()">/</button>
+                            <button class="round-button" onclick="power()">**</button>
+                            <button class="round-button" onclick="clearing()">Clear</button>
+                        </div>
+                        <div id="output-box">
+                            <h3 id="output"></h3>
+                        </div>
+                    </div>
+                <script src="project.js"></script>
+
+        </main>
+    </div>
+    <footer>
+        <p>All Rights Reserved by Lingyin Li &#169; <a href="">Credits</a> </p>
+    </footer>
+</div>
+</body>
+</html>
