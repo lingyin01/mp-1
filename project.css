@@ -130,7 +130,7 @@ input{
     background-color: white;
     overflow: hidden;
     text-align: center;
-    background-image: url('birdie.jpg');
+    background-image: url('src/birdie.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
@@ -149,7 +149,7 @@ input{
     align-items: center;
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.6);
-    background-image: url('baddycourt.jpg');
+    background-image: url('src/baddycourt.jpg');
     background-size: cover;
     background-blend-mode: lighten;
 }
